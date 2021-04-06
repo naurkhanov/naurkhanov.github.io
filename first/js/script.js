@@ -38,6 +38,9 @@ const check = () =>{
         ){
             result = 'нолики';
             prepareResult(result);
+        } else{
+            result = 'ничья';
+            prepareResult(result);
         }
     }
 }
